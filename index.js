@@ -8,7 +8,7 @@ const fetch = require('node-fetch');
  * @param from = starting number
  * @param to = end number
  * @param fixed = number of decimal places
- * @returns {boolean}
+ * @returns {float}
  */
 function getLatLong(from, to, fixed) {
     return (Math.random() * (to - from) + from).toFixed((fixed) * 1)
